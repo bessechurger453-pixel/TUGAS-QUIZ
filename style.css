@@ -1,0 +1,52 @@
+/* ================================
+   THEME 3: QUIZ - CUSTOM CSS
+   ================================ */
+
+.bg-quiz { background-color: #10b981 !important; }
+.text-quiz { color: #10b981 !important; }
+.badge.bg-quiz { background-color: #10b981 !important; }
+.btn-quiz {
+    background-color: #10b981;
+    color: white;
+    border: none;
+}
+.btn-quiz:hover {
+    background-color: #059669;
+    color: white;
+}
+.progress-bar.bg-quiz { background-color: #10b981 !important; }
+
+.hero-section {
+    background-image: url('cposter,large,square_product,1000x1000.2.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 55vh;
+    display: flex;
+    align-items: center;
+}
+
+.card { 
+    transition: transform 0.3s ease; 
+    border: 2px solid #10b981;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(16, 185, 129, 0.15);
+}
+.card:hover { transform: translateY(-4px); box-shadow: 0 12px 32px rgba(16, 185, 129, 0.25); }
+
+#quizCard {
+    background: linear-gradient(135deg, #f0fdf4 0%, #ffffff 100%);
+}
+
+/* Option buttons */
+.option-btn {
+    text-align: left;
+    background: #f8f9fa;
+    border: 2px solid #dee2e6;
+    border-radius: 8px;
+    padding: 12px 16px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.option-btn:hover { background: #e9ecef; border-color: #10b981; }
+.option-btn.correct { background: #d1fae5; border-color: #10b981; color: #065f46; }
+.option-btn.wrong { background: #fee2e2; border-color: #ef4444; color: #991b1b; }
